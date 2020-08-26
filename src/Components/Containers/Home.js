@@ -2,7 +2,6 @@ import React, { Component, useState, useEffect, useHistory } from "react";
 import "antd/dist/antd.css";
 import { Layout } from "antd";
 import List from "./List";
-import Detailscomponent from "./Details";
 import LoadingMask from "react-loadingmask";
 import "react-loadingmask/dist/react-loadingmask.css";
 import "./main.css";
