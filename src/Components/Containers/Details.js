@@ -1,13 +1,7 @@
 import React, { Component, useState, useEffect, useHistory } from "react";
-import ReactHtmlParser, {
-  processNodes,
-  convertNodeToElement,
-  htmlparser2,
-} from "react-html-parser";
+
 const Details = (props) => {
   console.log(props.editContent && props.editContent.body);
-  const html = ReactHtmlParser(props.editContent && props.editContent.body);
-  console.log(html);
 
   return (
     <div
